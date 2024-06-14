@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT
 
 config SHIELD_BOBOARD_LEFT
-    def_bool $(shields_list_contains,triboard_left)
+    def_bool $(shields_list_contains,boboard_left)
 
 config SHIELD_BOBOARD_RIGHT
-    def_bool $(shields_list_contains,triboard_right)
+    def_bool $(shields_list_contains,boboard_right)

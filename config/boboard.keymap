@@ -81,18 +81,6 @@
             tapping-term-ms = <200>;
             bindings = <&kp P>, <&kp PLUS>;
         };
-        tdP: tap_dance_P {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp P>, <&kp PLUS>;
-        };
-        tdP: tap_dance_P {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp P>, <&kp PLUS>;
-        };
         tdA: tap_dance_A {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;

@@ -183,13 +183,13 @@
             tapping-term-ms = <200>;
             bindings = <&kp TILDE>, <&kp GRAVE>;
         };
-        td1: tap_dance_mod_tap1 {
+        td1: tap_dance_mod_tap_1 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&mt RSHIFT BACKSLASH>, <&kp PIPE>;
         };
-        td2: tap_dance_mod_tap2 {
+        td2: tap_dance_mod_tap_2 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
@@ -230,7 +230,7 @@
 &none   &none    &none     &none     &none     &none                          &none     &none      &none     &none      &none           &none
 &none   &kp ESC  &kp HOME  &kp UP    &kp END   &none                          &none     &kp HOME   &kp UP    &kp END    &kp PSCRN       &none
 &none   &none    &kp LEFT  &kp DOWN  &kp RIGHT &none                          &none     &kp LEFT   &kp DOWN  &kp RIGHT  &kp INSERT      &none
-&none   &none    &kp PG_UP &none     &kp PG_DN &none                          &trans    &kp PG_UP  &none     &kp PG_DN  &kp PAUSE_BREAK &none
+&none   &none    &kp PG_UP &none     &kp PG_DN &none                          &none     &kp PG_UP  &none     &kp PG_DN  &kp PAUSE_BREAK &none
 &none            &none     &trans    &none     &none                          &none     &trans     &none     &none                      &none
             >;
 

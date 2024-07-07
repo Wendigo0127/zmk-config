@@ -216,7 +216,6 @@
 &kp LCTRL  &kp LEFT_WIN  &lt 1 SPACE  &lt 2 BSPC  &mt LALT DEL      &kp SPACE   &lt 1 ENTER    &lt 2 BSPC   &td2      &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         lower_layer {
@@ -234,7 +233,6 @@
 &none            &none     &trans    &none     &none                          &none     &trans     &none     &none                      &none
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         raise_layer {
@@ -252,7 +250,6 @@
 &none                   &none    &none     &trans    &none                  &none        &none      &trans     &none                &none
               >;
 
-                sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };

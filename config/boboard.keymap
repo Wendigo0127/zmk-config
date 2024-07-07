@@ -183,13 +183,13 @@
             tapping-term-ms = <200>;
             bindings = <&kp TILDE>, <&kp GRAVE>;
         };
-        td1: tap_dance_mod_tap_1 {
+        td_mt1: tap_dance_mod_tap1 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&mt RSHIFT BACKSLASH>, <&kp PIPE>;
         };
-        td2: tap_dance_mod_tap_2 {
+        td_mt2: tap_dance_mod_tap2 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
@@ -212,8 +212,8 @@
 &none    &none   &none    &none   &none    &none                    &none     &none     &none     &none     &none     &none
 &none    &tdQ    &tdW     &tdE    &tdR     &tdT                     &tdY      &tdU      &tdI      &tdO      &tdP      &none
 &none    &kp TAB &tdA     &tdS    &tdD     &tdF                     &tdG      &tdH      &tdJ      &tdK      &tdL      &none
-&none    &kp     &tdZ     &tdX    &tdC     &tdV                     &tdB      &tdN      &tdM      &td0      &td1      &none
-&kp LCTRL  &kp LEFT_WIN  &lt 1 SPACE  &lt 2 BSPC  &mt LALT DEL      &kp SPACE   &lt 1 ENTER    &lt 2 BSPC   &td2      &kp RCTRL
+&none    &kp     &tdZ     &tdX    &tdC     &tdV                     &tdB      &tdN      &tdM      &td0      &td_mt1   &none
+&kp LCTRL  &kp LEFT_WIN  &lt 1 SPACE  &lt 2 BSPC  &mt LALT DEL      &kp SPACE   &lt 1 ENTER    &lt 2 BSPC   &td_mt2   &kp RCTRL
             >;
 
         };

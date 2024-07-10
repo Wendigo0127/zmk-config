@@ -19,6 +19,10 @@
 };
  */
 
+&mt {
+    tapping-term-ms = <1000>;
+};
+
 / {
     behaviors {
         td0: tap_dance_0 {
